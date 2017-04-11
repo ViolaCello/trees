@@ -1,6 +1,6 @@
 ## Introduction
 
-###Objectives
+### Objectives
 - Learn how the different components of a tree
 - Learn about the characteristics of a binary search tree
 - Explore how trees are a recursive data structure
@@ -48,7 +48,7 @@ Similarly linked lists also consists of linked lists.  If we remove a node from 
 
 Cut off the limbs of a linked list and you get a linked list.  Cut off the limbs of an array and you have an array.
 
-![](http://akns-images.eonline.com/eol_images/Entire_Site/20141025/rs_500x250-141125140152-tumblr_mqwep6KBbA1stpdklo2_500.gif) 
+![](https://s3.amazonaws.com/learn-verified/montypython.gif)
 
 Notice that the same thing is true of a tree.
 
