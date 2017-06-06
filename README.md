@@ -1,7 +1,7 @@
 ## Introduction
 
 ### Objectives
-- Learn how the different components of a tree
+- Learn how the different components of a tree relate
 - Learn about the characteristics of a binary search tree
 - Explore how trees are a recursive data structure
 
@@ -30,7 +30,7 @@ In the diagram above, Grampa Simpson is a parent of Homer Simpson and Homer Simp
 
 ```
 
-In the above diagram, the CEO has a parent-child relationship with his direct reports, the Chief Operating Officer, the Chief Financial Officer and the Chief Marketing Officer.  Each of the C level officers has a parent-child relationship with each one of their direct reports.  
+In the above diagram, the CEO has a parent-child relationship with his/her direct reports, the Chief Operating Officer, the Chief Financial Officer and the Chief Marketing Officer.  Each of the C-level officers has a parent-child relationship with each one of his/her direct reports.  
 
 One thing that you may start noticing is that the parent-child relationship is convenient for sorting information.  For example, the tree above represents the organizational hierarchy.  Those who report to the same employee (for example, all of the Vice Presidents) are **siblings**.   
 
@@ -40,11 +40,11 @@ So as we see, trees with parent-child relationships, siblings, and root nodes na
 
 ### Trees as a recursive data structure
 
-There is one characteristic to remember about trees as we explore methods to explore the data structure in the sections that follow: they are recursive.  
+There is one characteristic to remember about trees as we discuss methods of tree exploration in the sections that follow: they are recursive.  
 
 We have seen recursive data structures before.  Arrays and linked lists are both recursive data structures.  For example, every array is made up of smaller arrays.  It's that characteristic that allows us to say that the sum of the elements in an array is the sum of all of the elements up to the last element, plus the final element.  Turning that into a recursive method relies on an array being made up of smaller arrays.  
 
-Similarly linked lists also consists of linked lists.  If we remove a node from a linked list, what we are left with is another linked list.
+Similarly linked lists also consist of linked lists.  If we remove a node from a linked list, what we are left with is another linked list.
 
 Cut off the limbs of a linked list and you get a linked list.  Cut off the limbs of an array and you have an array.
 
@@ -64,4 +64,4 @@ If we remove Grampa Simpson from the tree, we still have a tree with Homer as ou
 
 ### Summary
 
-Trees connect nodes in a parent child relationship.  The node in a tree without a parent is called the root node.  Nodes who share a parent node are called siblings.  Trees are a recursive data structure, meaning that each tree is made up of other trees with parent and child nodes.  
+Trees connect nodes in a parent child relationship.  The node without a parent in any tree is called the root node.  Nodes that share a parent node are called siblings.  Trees are a recursive data structure, meaning that each tree is made up of other trees with parent and child nodes.  
